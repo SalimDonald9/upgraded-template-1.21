@@ -3,7 +3,9 @@
   "item.upgraded.silver_ingot": "Silver Ingot",
   "block.upgraded.block_of_raw_silver": "Block of Raw Silver",
   "block.upgraded.block_of_silver": "Block of Silver",
+  "block.upgraded.silver_ore": "Silver Ore",
+  "block.upgraded.deepslate_silver_ore": "Deepslate Silver Ore",
   "item.upgraded.rose_gold_ingot": "Rose Gold Ingot",
-  "item.upgraded.rose_gold_nugget": "Rose Gold Nugget"
-
+  "item.upgraded.rose_gold_nugget": "Rose Gold Nugget",
+  "itemgroup.upgraded.metals": "New Metals"
 }

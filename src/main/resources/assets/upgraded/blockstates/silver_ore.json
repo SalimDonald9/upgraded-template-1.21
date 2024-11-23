@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "upgraded:block/silver_ore"
+    }
+  }
+}

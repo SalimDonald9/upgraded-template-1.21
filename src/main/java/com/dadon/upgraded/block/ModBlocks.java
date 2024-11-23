@@ -19,6 +19,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().instrument(NoteBlockInstrument.BASEDRUM)));
     public static final Block BLOCK_OF_SILVER = registerBlock("block_of_silver",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().instrument(NoteBlockInstrument.BASEDRUM)));
+    public static final Block SILVER_ORE = registerBlock("silver_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().instrument(NoteBlockInstrument.BASEDRUM)));
+    public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().instrument(NoteBlockInstrument.BASEDRUM)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -35,6 +39,8 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.BLOCK_OF_RAW_SILVER);
+            fabricItemGroupEntries.add(ModBlocks.SILVER_ORE);
+            fabricItemGroupEntries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {

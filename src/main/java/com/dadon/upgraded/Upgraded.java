@@ -1,6 +1,7 @@
 package com.dadon.upgraded;
 
 import com.dadon.upgraded.block.ModBlocks;
+import com.dadon.upgraded.item.ModItemGroups;
 import com.dadon.upgraded.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,7 +14,7 @@ public class Upgraded implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
-	}
+		ModBlocks.registerModBlocks();}
 }
